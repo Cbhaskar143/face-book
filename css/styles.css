@@ -1,0 +1,46 @@
+nav img{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    transition: 2s ease all;
+}
+nav img:hover{
+    transform: scale(1.5,1.5);
+}
+.title{
+    font-size: 50px;
+}
+body {
+    background: url("../images/3.jpg") no-repeat fixed top left,
+                url("../images/4.jpg") no-repeat fixed bottom left,
+                url("../images/1.jpg") no-repeat fixed center;
+    background-size:250px 250px,250px 250px,cover;
+    
+  }
+  .face{
+    font-size: 50px;
+    font-weight: bold;
+  }
+  .creat{
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .name{
+    width: 175px;
+  }
+  #Number{
+    width: 110px;
+  }
+  #costum1{
+    width: 370px;
+    height: 35px;
+  }
+  .non{
+    border: none;
+    background: none;
+  }
+a{
+    text-decoration: none;
+}
+
